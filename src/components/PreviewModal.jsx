@@ -7,7 +7,6 @@ function PreviewModal({ doc }) {
   const img = doc[3];
   const method = doc[1];
   const cookingTime = doc[2];
-  console.log(doc);
 
   return (
     doc && (

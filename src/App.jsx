@@ -62,7 +62,6 @@ function App() {
     onAuthStateChanged(auth, (user) => {
       dispatch({ type: "LOGIN", payload: user });
       dispatch({ type: "IS_AUTH_READY" });
-      console.log(user);
     });
   }, []);
 

@@ -27,57 +27,6 @@ function Login() {
           "url(https://burst.shopifycdn.com/photos/flatlay-iron-skillet-with-meat-and-other-food.jpg?width=1000&format=pjpg&exif=0&iptc=0)",
       }}
     >
-      {/* <div className="h-screen grid place-items-center">
-        <div className="px-[30px] sm:w-sm md:w-md py-[20px] bg-white opacity-80 rounded-lg shadow-2xl ">
-          <h1 className="md:text-[33px] sm:text-[25px] font-bold text-center">
-            Login
-          </h1>
-          <form onSubmit={handleLogin}>
-            <label className="form-control w-full max-w-xs">
-              <div className="label">
-                <span className="label-text">Email:</span>
-              </div>
-              <input
-                ref={email}
-                type="email"
-                placeholder="Email write..."
-                className="input input-bordered input-info w-full max-w-xs skeleton w-full"
-              />
-            </label>
-            <label className="form-control w-full max-w-xs">
-              <div className="label">
-                <span className="label-text">Password:</span>
-              </div>
-              <input
-                ref={password}
-                type="password"
-                placeholder="password write..."
-                className="input input-bordered input-info w-full max-w-xs skeleton w-full"
-              />
-            </label>
-            <div className="flex flex-col mt-[10px] gap-2">
-              {!isPending && <Button text={"Login"} disabled={false} />}
-              {isPending && <Button text={"Loading..."} disabled={true} />}
-              <button
-                type="button"
-                onClick={() => {
-                  signin();
-                }}
-                className="btn btn-sm md:btn-md  btn-outline skeleton w-full"
-              >
-                Google
-              </button>
-              <Link
-                to="/signup"
-                className="btn btn-outline btn-sm md:btn-md btn-secondary skeleton w-full"
-              >
-                Create a new user ? Sign up
-              </Link>
-            </div>
-          </form>
-        </div>
-      </div> */}
-
       <div className="grid h-screen place-items-center">
         <div className="px-[30px] sm:w-sm md:w-md py-[20px] bg-white opacity-80 rounded-lg shadow-2xl ">
           <h1 className="text-center text-2xl md:text-4xl font-bold">Login</h1>
