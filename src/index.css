@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .max-container {
+    max-width: 1100px;
+    @apply px-5 mx-auto w-full;
+  }
+  html,
+  body {
+    @apply h-full;
+  }
+  #root {
+    @apply h-full flex flex-col;
+  }
+  .remdiv {
+    display: none;
+  }
+  .remdivs {
+    display: block;
+  }
+}
