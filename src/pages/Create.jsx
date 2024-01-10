@@ -70,7 +70,7 @@ function Create() {
   const handleIngred = (e) => {
     e.preventDefault();
     const ingred = ingredients.current.value.trim();
-    if (ingr.length < 4) {
+    if (ingr.length < 8) {
       if (!ingr.includes(ingred)) {
         setIngr((prev) => {
           return [...prev, ingred];
