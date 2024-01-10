@@ -12,7 +12,7 @@ function RecipiesList({ recipies }) {
   };
   return (
     <div className="my-[20px]  ">
-      <h2 className="md:text-[30px] sm:text-[20px] font-bold text-center">
+      <h2 className="md:text-[30px] text-[25px] font-bold text-center">
         All recipies: {recipies.length}
       </h2>
       <ul className="mt-[10px] flex flex-wrap gap-6 justify-center ">
@@ -21,7 +21,7 @@ function RecipiesList({ recipies }) {
           .map((recip) => {
             return (
               <li key={recip.id}>
-                <div className="card card-compact h-full  bg-base-100 shadow-xl w-72 md:w-80">
+                <div className="card card-compact h-full  bg-base-100 shadow-xl  md:w-96">
                   <figure>
                     <img
                       src={recip.images[0]}
