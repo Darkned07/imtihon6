@@ -21,7 +21,7 @@ function RecipiesList({ recipies }) {
           .map((recip) => {
             return (
               <li key={recip.id}>
-                <div className="card card-compact h-full sm:w-[220px] w-[200px] md:w-[250px] bg-base-100 shadow-xl">
+                <div className="card card-compact h-full  bg-base-100 shadow-xl w-72 md:w-80">
                   <figure>
                     <img
                       src={recip.images[0]}
