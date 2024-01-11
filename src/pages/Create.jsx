@@ -240,7 +240,7 @@ function Create() {
       )}
       {loading && (
         <div className="flex flex-row gap-1 items-center justify-center">
-          <span className="md:text-[28px] text-[23px]">Loading</span>
+          <span className="md:text-[28px] text-[23px]">Creating</span>
           <span className="loading loading-spinner md:loading-md loading-sm"></span>
         </div>
       )}
