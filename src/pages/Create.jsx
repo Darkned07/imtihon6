@@ -120,7 +120,7 @@ function Create() {
         <div className="flex flex-col items-center justify-center my-[20px] ">
           <PreviewModal doc={doc} />
 
-          <h2 className="font-bold text-[25px]">Create Recipies:</h2>
+          <h2 className="font-bold text-[25px]"> Create Recipies: </h2>
           <form
             onSubmit={handleSubmit}
             className="flex flex-col items-center md:w-[800px] w-full"
