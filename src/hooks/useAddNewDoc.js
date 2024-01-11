@@ -10,9 +10,8 @@ export function useAddNewDoc() {
     setIsPending(true);
     const docRef = await addDoc(collection(db, col), data);
     setIsPending(false);
-    console.log(docRef.id);
     setRecip(docRef);
-    toast.success("New Recipie add :)")
+    toast.success("New Recipie add :)");
   };
   return { addNewDoc, recip, isPending };
 }
